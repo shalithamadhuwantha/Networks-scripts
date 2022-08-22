@@ -1,0 +1,13 @@
+if you have  an error please type this
+
+sudo mkdir /usr/lib/python2.7/dist-packages/scapy
+cd /usr/lib/python3/dist-packages/
+cp -avr scapy/* /usr/lib/python2.7/dist-packages/scapy
+
+
+
+
+
+sudo mkdir /usr/lib/python3/dist-packages/scapy
+cd /usr/lib/python3/dist-packages/
+cp -avr scapy/* /usr/lib/python3/dist-packages/scapy
